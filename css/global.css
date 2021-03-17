@@ -1,0 +1,123 @@
+/*---------
+Author: The Fox is an awesome website;
+GitHub:
+-----------*/
+
+/*======= Global Css =======*/
+/*======= A =======*/
+.arrow-shape{
+	position: relative;
+}
+.arrow-shape::after{
+	content:'';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background:#fff;
+	top:100%;
+	left:50%;
+    transform: rotate(45deg);
+    margin-top: -11px;
+	margin-left: -11px;
+    border-bottom: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+/*======= B =======*/
+.border-w-sm{
+	width: 45px;
+    height: 45px;
+    padding-top: 9px;
+	border:1px solid #dee2e6;
+	text-align:center;
+}
+.border-w-md{
+	width: 60px;
+    height: 60px;
+	padding-top: 6.5px;
+	border:1px solid #dee2e6;
+	margin-top: -45px;
+}
+.border-w-lg{
+	border: 2px solid #1abc9c;
+    width: 155px;
+    height: 155px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+/*======= C =======*/
+.card-img-overlay{
+	display:none;
+}
+.card:hover .card-img-overlay{
+	display:block;
+}
+.carousel-control-next,
+.carousel-control-prev {
+	width: 50px;
+	opacity: 1;
+}
+/*======= D =======*/
+.display-1{
+	font-weight:800;
+}
+.display-4{
+	font-weight:800;
+}
+/*======= I =======*/
+.img{
+	width: 110px!important;
+	margin: 0 auto;
+}
+/*======= L =======*/
+.letter-spacing{
+	letter-spacing:6px;
+}
+/*======= P =======*/
+.position-middle{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	z-index:999;
+}
+.polygon-shape{
+	clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+    height: 40px;
+    width: 45px;
+    text-align: center;
+    background: #333;
+    padding-top: 10px;
+}
+/*======= S =======*/
+#slider img{
+	height: 722px;
+}
+/*======= Global Meida Query Css =======*/
+/* breakpoint from 992 up */
+@media(max-width:992px){
+	.display-1{
+		font-size: 4.4rem;
+	}
+	.display-4{
+		font-size: 3.1rem;
+	}
+}
+/* breakpoint from 768 up */
+@media(max-width:768px){
+	.display-1{
+		font-size: 3.4rem;
+	}
+	.display-4{
+		font-size: 2.7rem;
+	}
+}
+/* breakpoint from 576 up */
+@media(max-width:576px){
+	.display-1{
+		font-size: 3rem;
+	}
+	.display-4{
+		font-size: 2.125rem;
+	}
+}

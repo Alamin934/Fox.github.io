@@ -1,0 +1,330 @@
+/*---------
+Author: MoGo is an awesome website;
+GitHub:
+-----------*/
+/*======= Theme Css =======*/
+body{
+	font-family: 'Lato', sans-serif;
+}
+section{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+/*======= B =======*/
+.bottom-mid{
+	bottom:30%;
+}
+.btn{
+	font-weight: 800;
+	font-size:1rem;
+}
+.btnAll{
+	border: 2px solid #fff;
+}
+.btn-info{
+	background:#1abc9c!important;
+}
+.btn-info:hover{
+	background:#29d9c2!important;
+}
+.btn-dark{
+	border:2px solid;
+	border-color:transparent;
+}
+.btn-dark:hover{
+	border-color:#fff;
+	color: #fff;
+	background: transparent;
+}
+/*======= H =======*/
+.hr{
+	border-top: 1px solid #243240;
+}
+/*======= I =======*/
+.icon{
+	width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #1fdab5;
+    border-radius: 50%;
+    color: #fff;
+    padding-top: 13px;
+}
+/*======= L =======*/
+.logo-width{
+	width: 150px;
+}
+/*======= P =======*/
+p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.promo-btn{
+	border-bottom: 2px solid rgba(0,0,0,.3);
+    padding: 10px 18px;
+    background: #1ABC9C;
+    color: #fff!important;
+    font-size: 1.125rem;
+	transition: .6s;
+}
+.promo-btn:hover{
+    background: #223555;
+	color: #fff!important;
+}
+/*======= S =======*/
+.shape-height{
+	border-left: 10px solid #1ABC9C;
+}
+/*======= T =======*/
+.text-info{
+	color:#1ABC9C!important;
+}
+
+/*======= Nav Part =======*/
+#navbarNav a:hover{
+	color:#1abc9c;
+}
+/*======= About Part =======*/
+#about1 .card:hover .border-w-sm{
+	background:#1ABC9C!important;
+	color:#fff!important;
+	transition:.5s;
+}
+/*======= Portfolio Part =======*/
+#portfolio{
+	background:url('../images/portfolio.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*======= Portfolio Skill Bar Part =======*/
+svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: #21C2F8;
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width: 6;
+}
+svg.radial-progress circle.incomplete { opacity: 0.25; }
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+svg.radial-progress text {
+  fill: #fff;
+  text-anchor: middle;
+}
+/*======= Client Part =======*/
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #08d38c!important;
+}
+/*======= Social Part =======*/
+#social .display-4{
+	padding: 100px 0;
+}
+.google{
+  background: #414141;
+}
+.pinteres{
+  background: #c9232d;
+}
+.vimeo{
+  background: #41b2dc;
+}
+.dribbble{
+  background: #f874a4;
+}
+.tumblr{
+  background: #2a445f;
+}
+.twitter{
+  background: #41d1da;
+}
+.facebook{
+  background: #3c5a9a;
+}
+.rss{
+  background: #f08421;
+}
+/*======= Features Part =======*/
+#features{
+	background:url('../images/features_bg.jpg') no-repeat center;
+	background-size: cover;
+}
+#features h3{
+	font-size:18px;
+}
+/*======= Pricing Part =======*/
+#pricing .icon{
+	width: 140px;
+    height: 140px;
+    text-align: center;
+    background: #1abc9c;
+    border-radius: 50%;
+    color: #fff;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+#pricing h1::after{
+	content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #ffffff;
+    margin: 5px auto;
+}
+/*======= Blog Part =======*/
+#blog .polygon-shape{
+	background:#34495e;
+	transition: .6s;
+}
+#blog .bg-hover:hover .polygon-shape{
+	background:#1abc9c;
+}
+/*======= News Part =======*/
+#news h5:hover{
+	color: #29d9c2!important;
+	transition: .7s;
+	cursor:pointer;
+}
+#news .images{
+	position:relative;
+}
+#news .overlay{
+	position: absolute;
+	top:0;
+	left:0;
+    background: #0000008c;
+    color: #fff;
+	width: 50px;
+    height: 45px;
+	transition: width .3s,height .3s;
+}
+#news .images:hover .overlay{
+	width: 100%;
+    height: 100%;
+}
+#news .images .hover-mid{
+	margin: 6px;
+    margin-left: 12px;
+}
+#news .images:hover .hover-mid{
+	margin-top: 91px;
+    margin-left: 80px;
+    transition: .3s;
+}
+/*======= News Part =======*/
+#contact{
+	background:url('../images/contact.jpg') no-repeat center;
+	background-size: cover;
+	padding-top:70px;
+	padding-bottom: 70px;
+}
+#contact .btn{
+	border-bottom: 2px solid rgba(0,0,0,.3)!important;
+}
+#social-icons a:hover{
+	color: #21c2f8;
+	transition: .5s;
+	cursor:pointer;
+}
+#contact h5:hover{
+	color: #29d9c2!important;
+	transition: .7s;
+	cursor:pointer;
+}
+#contact .media:hover img{
+	background: #fff;
+	transition: .7s;
+}
+#contact .media img{
+	background: #000;
+	padding: 5px;
+}
+#contact .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+	text-align: left;
+}
+/*======= Footer Part =======*/
+#footer{
+	color:#a1b1bc;
+	background:#1A1C27;
+}
+#footer img{
+	width:55px;
+}
+.btn-outline{
+	border: 1px solid #a1b1bc;
+    padding: 7px 11px;
+    color: #a1b1bc;
+	border-radius:0;
+	margin:2px;
+	font-size: .85rem;
+	font-weight: 300;
+}
+.btn-outline:hover{
+	text-decoration:none;
+	color: #fff;
+	background:#1abc9c;
+	border-color:transparent;
+}
+#footer .img-overlay{
+	position:relative;
+}
+#footer .overlay{
+	position:absolute;
+	background: #1b76feba;
+    height: 56px;
+    width: 55px;
+    padding: 17px;
+	visibility:hidden;
+}
+#footer .media:hover .overlay{
+	visibility:visible;
+}
+#upper{
+	position:fixed;
+	bottom: 10px;
+	right: 10px;
+}
+/*======= Theme Meida Query Css =======*/
+/* breakpoint from 992 up */
+@media(max-width:992px){
+	.offcanvas-collapse {
+		position: fixed;
+		top: 85px; /* Height of navbar */
+		bottom: 0;
+		left: 100%;
+		width: 40%;
+		overflow-y: auto;
+		visibility: hidden;
+		background-color: #2b2a2a;
+		transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+		transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+		transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+	 }
+	  .offcanvas-collapse.open {
+		visibility: visible;
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+	#navbarNav a{
+		color:#fff;
+	}
+}
+/* breakpoint from 576 up */
+@media(max-width:576px){
+	/*======= Slider Part =======*/
+	#slider h4{
+		font-size: 1.25rem;
+	}
+	.offcanvas-collapse {
+		width: 100%;
+		background-color: #2b2a2af5;
+	 }
+	 #social .display-4{
+		padding: 30px 0;
+	}
+}
